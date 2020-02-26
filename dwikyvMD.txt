@@ -1,0 +1,143 @@
+1. Mobile Developmet Pertemuan Pertama
+
+fun main(){
+    //immutable
+   val bahasa="java"
+   bahasa = "kotlin"
+   println(bahasa)
+}
+
+
+fun main(){
+    //mutable
+   var bahasa="java"
+   bahasa = "kotlin"
+   println(bahasa)
+}
+
+
+fun main(){
+    fungsi1()
+}
+fun fungsi1(){
+    println("belajar mobile development")
+}
+
+
+fun main(){
+    fungsi1()
+    println(ReturnFungsi())
+}
+fun fungsi1(){
+    println("belajar mobile development")
+}
+fun ReturnFungsi():Double{
+    return 10.5
+}
+
+
+fun main(){
+    fungsi1()
+    println(ReturnFungsi())
+    val hasil=hitung(5.0,10.0)
+    println(hasil)
+}
+fun fungsi1(){
+    println("belajar mobile development")
+}
+fun ReturnFungsi():Double{
+    return 10.5
+}
+fun hitung(angka1:Double,angka2:Double):Double{
+    val hasil=angka1+angka2
+    return hasil
+    
+}
+
+
+fun main(){
+    val mD=MobDev()
+    mD.studMobDev()
+}
+class MobDev(){
+    fun studMobDev(){
+        println("matakuliah Mobile Development")
+    }
+}
+
+
+fun main(){
+    val mD=MobDev()
+    mD.studMobDev()
+    mD.studMobDev2()
+}
+class MobDev(){
+    fun studMobDev(){
+        println("matakuliah Mobile Development")
+    }
+    fun studMobDev2(){
+        println("mangil fungsi ke 2")
+    }
+}
+
+
+fun main(){
+    val orang=ganteng("antum")
+    orang.tampilkan()
+}
+class ganteng(val name:String){
+    fun tampilkan(){
+        println("$name ganteng dan sholeh yah")
+    }
+}
+
+
+fun main(){
+    for (i in 0..30)
+    println(i)
+}
+
+
+fun main(){
+    val kota=arrayOf("tegal","jakarta","bandung")
+    for (i in kota.indices){
+        println(kota[i])
+    }
+    	
+}
+
+
+
+fun main(){
+    var cuaca="hujan"; when (cuaca) {
+        "hujan" -> println("gunakan payung")
+        "salju" -> println("gunakan jaket")
+        else -> println("berangkat")
+        
+    }
+}
+
+
+
+fun main(args: Array<String>){
+    val username:String = "Mobile Development"
+    
+    if (username == "Mobile Development"){
+        println ("Welcome to The Jungle")
+    }else{
+        println("sapa takut")
+    }
+}
+
+
+
+object Orang{
+    val nama = "Dwiky Valentino"
+}
+
+fun main(args: Array<String>) {
+    println(Orang.nama)
+}
+
+
+
